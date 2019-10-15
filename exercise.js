@@ -15,8 +15,6 @@ let comps = 0;
 
 
 let start = 0;
-
-
 //开始
 btn.addEventListener('click', function() {
     btn.style.display = 'none';

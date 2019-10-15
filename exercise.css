@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: black;
+    text-align: center;
+    color: aliceblue;
+}
+#word {
+    margin-top: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 48px;
+}
+#result {
+    font-size: 36px;
+    color: blanchedalmond;
+}
+#btn {
+    font-size: 20px;
+    background-color: khaki;
+    cursor: pointer;
+}
+#score {
+    visibility: hidden;
+
+}
+#score p{
+    margin-top: 15px;
+    display: inline-block;
+}
+#imgages {
+    margin-top: 50px;
+    margin-left: -3px;
+    
+}
+#imgages :hover {
+    border-style: ridge;
+    border-color: cadetblue;;
+}
+#imgb {
+    margin-left: -6px;
+
+}
+#more {
+    margin-top: 300px;
+}
+

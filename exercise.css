@@ -6,6 +6,7 @@ body {
     background-color: black;
     text-align: center;
     color: aliceblue;
+    position: relative;
 }
 #word {
     margin-top: 15px;
@@ -22,17 +23,37 @@ body {
     cursor: pointer;
 }
 #score {
-    visibility: hidden;
-
+    /* visibility: hidden; */
+    margin: 10px auto;
+    width: 250px;
+    border-style: solid;
+    border-color: aliceblue;
+    position: relative;
+}
+.userred {
+    width: 80px;
+    height: 25px;
+    background-color: darkcyan;;
+    margin-top: 16px;
+    left: -40px;
+    position: absolute;
+    font-size: 18px;
+}
+.compred {
+    width: 80px;
+    height: 25px;
+    background-color: darkcyan;
+    position: absolute;
+    font-size: 18px;
+    margin-top: 16px;
+    right: -40px;
 }
 
 #score p{
-    margin-top: 15px;
     display: inline-block;
 }
 #imgages {
     margin-top: 50px;
-    margin-left: -3px;
     
 }
 #imgages :hover {
@@ -46,4 +67,3 @@ body {
 #more {
     margin-top: 300px;
 }
-
